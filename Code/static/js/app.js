@@ -44,7 +44,7 @@ d3.json("https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1
             marker: {
                 size: sample.sample_values,
                 color: sample.otu_ids,
-                colorscale: 'Earth'
+                colorscale: 'YlGnBu'
             },
             text: sample.otu_labels
         };
